@@ -20,7 +20,7 @@ class Book {
      }
 
      static bookStore(){
-          return 'Donald Blake Book Store';
+          return 'Geetanjali is available in Donald Blake Book Store';
      }
      
 }
@@ -28,11 +28,11 @@ class Book {
 const book1 = new Book('Geetanjali', 'Rabindranath Tagore', '1907');
 
 //console.log(book1);
-//console.log(book1.summary());
-//console.log(book1.age());
-//book1.change(1913);
+console.log(book1.summary());
+console.log(book1.age());
+book1.change(1913);
 //console.log(book1);
-//console.log(book1.summary());
-//console.log(book1.age());
+console.log(book1.summary());
+console.log(book1.age());
 
 console.log(Book.bookStore());
